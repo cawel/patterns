@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + '/test_helper'
+require File.expand_path('test_helper', File.dirname(__FILE__))
 require "front_controller"
 
 class FrontControllerTest < Test::Unit::TestCase
